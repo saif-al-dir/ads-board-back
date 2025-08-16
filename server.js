@@ -8,7 +8,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 const app = express();
 app.use(cors({
-  origin: https://ads.aldiresee.com/, // Your React dev server
+  origin: 'https://ads.aldiresee.com', // Your React dev server
   credentials: true
 }));
 
